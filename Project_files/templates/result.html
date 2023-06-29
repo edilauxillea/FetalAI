@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container-fluid text-light py-3" style="background-color: rgb(241, 54, 92);">
+        <table>
+         <td>
+             <img src="/static/icon.png" style="width: max-content; padding-left: 0px" alt="icon">
+         </td>
+         <td>
+             <header id="head" class="text-center">
+                 <h1  style = "font-size: 100px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgba(241, 1, 1, 0.648);">FETAL HEALTH</h1>
+             </header>
+         </td>
+        </table>
+    </div>
+    {% if result=="Normal" %}
+      <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-4 mb-md-0 p-md-4">
+          <img src="/static/healthy.gif" class="w-100" alt="...">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <h5 class="mt-0">Predicted Stage : {{result}}</h5>
+          <p>
+            The baby is completely healthy and {{result}}
+          </p>
+          <a target="_blank" href="https://www.shchatswoodmedicalcentre.com.au/signs-healthy-pregnancy/" class="stretched-link">Learn more</a>
+        </div>
+      </div>
+      <center><h1 style="font-size: 100px;">Positive Signs</h1></center>
+      <div class="row" style="left: 50 px;">
+        <div class="col-4">
+          <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Regular fetal movements</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Steady weight gain</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Strong and regular fetal heartbeat</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Normal measurement of the uterus</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-5">Consistent growth of the baby bump</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-6">Healthy levels of amniotic fluid</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-7">Good results from prenatal tests</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-8">Absence of complications or abnormalities</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="list-item-1">Regular fetal movements</h4>
+            <p>
+                Feeling the baby move regularly, especially during the second and third trimesters, 
+                is a positive sign of fetal well-being.
+            </p>
+            <h4 id="list-item-2">Steady weight gain</h4>
+            <p>
+                The mother's weight gain and the baby's growth are monitored throughout pregnancy. 
+                Adequate weight gain by the mother and appropriate growth of the fetus are 
+                positive signs.
+            </p>
+            <h4 id="list-item-3">Strong and regular fetal heartbeat</h4>
+            <p>
+                A strong and steady fetal heartbeat can be detected during prenatal visits using a 
+                Doppler device or ultrasound. A normal heart rate ranges between 120 and 160 
+                beats per minute.
+            </p>
+            <h4 id="list-item-4">Normal measurement of the uterus</h4>
+            <p>
+                The healthcare provider measures the size of the uterus during routine check-ups. 
+                An appropriate measurement suggests normal fetal growth.
+            </p>
+            <h4 id="list-item-5">Consistent growth of the baby bump</h4>
+            <p>
+                A gradually expanding belly is a positive sign that the fetus is growing and developing.
+            </p>
+            <h4 id="list-item-6">Healthy levels of amniotic fluid</h4>
+            <p>
+                The amount of amniotic fluid surrounding the baby is checked during ultrasounds. 
+                Sufficient amniotic fluid is necessary for the baby's movement, development, and protection.
+            </p>
+            <h4 id="list-item-7">Good results from prenatal tests</h4>
+            <p>
+                Prenatal screenings and diagnostic tests, such as ultrasound scans, blood tests, and 
+                genetic testing, can provide valuable information about the health and development of the fetus.
+            </p> 
+            <h4 id="list-item-8">Absence of complications or abnormalities</h4>
+            <p>
+                A healthy fetus typically does not show any signs of major abnormalities or complications, 
+                such as structural defects or genetic disorders. However, some conditions may not be detectable 
+                until later stages of pregnancy or after birth.  
+            </p>        
+          </div>
+        </div>
+      </div>
+    {% else %}
+    <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-4 mb-md-0 p-md-4">
+          <img src="/static/milk-mocha-milk-mocha-sick.gif" class="w-100" alt="...">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <h5 class="mt-0">Predicted Stage : {{result}}</h5>
+          <p>The baby has similarities to that of a {{result}} state, immediate medical attention is needed
+          </p>
+          <a target="_blank" href="https://my.clevelandclinic.org/health/diseases/22190-high-risk-pregnancy" class="stretched-link">Learn more</a>
+        </div>
+      </div>
+      <center><h1 style="font-size: 100px;">Possible reasons</h1></center>
+      <div class="row" style="left: 50 px;">
+        <div class="col-4">
+          <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Maternal health issues</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Maternal lifestyle choices</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Genetic factors</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Maternal age</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-5">Infections</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-6">Poor prenatal care</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-7">Placental abnormalities</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-8">Environmental factors</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="list-item-1">Maternal health issues</h4>
+            <p>
+                Certain health conditions in the mother, such as uncontrolled diabetes, high blood pressure, obesity, 
+                thyroid disorders, infections,autoimmune diseases, or substance abuse, can have a negative impact on 
+                fetal health.
+            </p>
+            <h4 id="list-item-2">Maternal lifestyle choices</h4>
+            <p>
+                Smoking, alcohol consumption, illicit drug use, or excessive caffeine intake during pregnancy can 
+                increase the risk of complications and negatively affect the fetus's development.
+            </p>
+            <h4 id="list-item-3">Genetic factors</h4>
+            <p>
+                Certain genetic disorders or chromosomal abnormalities, such as Down syndrome, can lead to poor fetal health. 
+                These conditions are usually not preventable and occur due to genetic variations or mutations.
+            </p>
+            <h4 id="list-item-4">Maternal age</h4>
+            <p>
+                Advanced maternal age (usually considered as 35 years or older) is associated with a higher risk of complications
+                 and fetal health issues. Older mothers have an increased likelihood of chromosomal abnormalities and conditions 
+                 like gestational diabetes or high blood pressure.
+            </p>
+            <h4 id="list-item-5">Infections</h4>
+            <p>
+                Maternal infections during pregnancy, such as rubella, cytomegalovirus, toxoplasmosis, or certain sexually transmitted 
+                infections like syphilis, can harm fetal health. These infections can be transmitted to the fetus, leading to developmental 
+                problems or birth defects.
+            </p>
+            <h4 id="list-item-6">Poor prenatal care</h4>
+            <p>
+                Inadequate prenatal care, including a lack of regular check-ups, prenatal vitamins, and necessary medical interventions, 
+                can contribute to poor fetal health outcomes. Regular prenatal care is essential for monitoring the health of both the mother
+                and the fetus.
+            </p>
+            <h4 id="list-item-7">Placental abnormalities</h4>
+            <p>
+                Conditions affecting the placenta, such as placenta previa (when the placenta covers the cervix), placental abruption 
+                (premature separation of the placenta), or placental insufficiency (when the placenta doesn't function properly), 
+                can affect the oxygen and nutrient supply to the fetus, leading to fetal health problems
+            </p> 
+            <h4 id="list-item-8">Environmental factors</h4>
+            <p>
+                Exposure to environmental toxins, pollutants, radiation, or certain medications during pregnancy can harm fetal health. 
+                It's important to follow medical advice and avoid potentially harmful substances.  
+            </p>        
+          </div>
+        </div>
+      </div>
+      {% endif %}
+</body>
+</html>
