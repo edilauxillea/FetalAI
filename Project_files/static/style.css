@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(228, 138, 156);
+}
+form{
+    box-shadow: 2px 6px 100px #ffffff;
+}
+.background-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+#head{
+    padding-left: 300px;
+}
