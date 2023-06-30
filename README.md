@@ -67,7 +67,7 @@ python gui.py
 5. Explore the visualization features of the GUI to analyze the results of predictions and model performance.
 6. Customize and extend the system according to your specific requirements by modifying the existing codebase.
 
-# Contributing
+# Contribution
 Contributions to the fetal health monitoring system are welcome! If you would like to contribute, please follow these steps:
 
 1. Fork the repository on GitHub.
