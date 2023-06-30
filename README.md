@@ -26,7 +26,7 @@ The fetal health monitoring system offers the following features:
 
 - Machine Learning Algorithms: The system supports various machine learning algorithms, including Random Forest. Random Forest is employed for the classification task as it excels in handling complex relationships between features and provides robust predictions. The system trains Random Forest models on the preprocessed and balanced data to classify fetal health conditions effectively.
 
-- Model Evaluation: The system includes evaluation modules to assess the performance of the trained models. Evaluation metrics such as accuracy, precision, recall, and F1 score are calculated to measure the model's effectiveness in predicting fetal health conditions.
+- Model Evaluation: The system includes evaluation modules to assess the performance of the trained models. Evaluation metrics such as accuracy, precision, recall, F1 score and confusion matrix are calculated to measure the model's effectiveness in predicting fetal health conditions.
 
 - Graphical User Interface (GUI): A user-friendly GUI is provided to interact with the system. The GUI allows users to load data, select and train machine learning models, and visualize the results of predictions and model performance.
 
