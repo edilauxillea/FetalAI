@@ -3,11 +3,11 @@
 This project focuses on developing a fetal health monitoring system using machine learning algorithms. The system aims to analyze decelerations and other relevant parameters to assess the health condition of the fetus. This README file provides an overview of the project and instructions on how to use and contribute to it.
 
 # Table of Contents
-- [Introduction]()
-- [Features]()
-- [Installation]()
-- [Usage]()
-- [Contributing]()
+- [Introduction](https://github.com/edilauxillea/FetalAI/blob/main/README.md#introduction)
+- [Features](https://github.com/edilauxillea/FetalAI/blob/main/README.md#features)
+- [Installation](https://github.com/edilauxillea/FetalAI/blob/main/README.md#installation)
+- [Usage](https://github.com/edilauxillea/FetalAI/blob/main/README.md#usage)
+- [Contributing](https://github.com/edilauxillea/FetalAI/blob/main/README.md#contributing)
 
 # Introduction
 Fetal health monitoring is a critical aspect of prenatal care. By analyzing FHR signals obtained from sensors placed on the mother's abdomen, healthcare professionals can assess the well-being of the fetus and detect potential complications. This project leverages machine learning algorithms to automate the analysis process and provide accurate predictions regarding the fetal health status.
