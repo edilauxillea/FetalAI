@@ -10,9 +10,10 @@ This project focuses on developing a fetal health monitoring system using machin
 - [Contributing](https://github.com/edilauxillea/FetalAI/blob/main/README.md#contributing)
 
 # Introduction
-Fetal health monitoring is a critical aspect of prenatal care. By analyzing FHR signals obtained from sensors placed on the mother's abdomen, healthcare professionals can assess the well-being of the fetus and detect potential complications. This project leverages machine learning algorithms to automate the analysis process and provide accurate predictions regarding the fetal health status.
+Fetal health monitoring is a critical aspect of prenatal care. Through the analysis of relevant parameters, such as maternal age, blood pressure, heart rate, and uterine contractions, healthcare professionals can evaluate the well-being of the fetus and identify potential complications. This project focuses on developing a fetal health monitoring system using machine learning algorithms. The system aims to analyze a dataset, consisting of various parameters related to fetal health and maternal well-being. By leveraging machine learning algorithms, the system can assess the health condition of the fetus based on these input parameters.
 
-The main goal of this project is to develop a reliable and efficient system that can classify fetal health conditions based on input data. The system uses a dataset consisting of various features extracted from FHR signals and relevant maternal parameters. By training and evaluating machine learning models on this dataset, the system can make predictions about the fetal health status, providing valuable insights to healthcare providers.
+The main goal of this project is to develop a reliable and efficient system that can classify fetal health conditions based on the input data from the Kaggle dataset. By training and evaluating machine learning models on this dataset, the system can make predictions about the fetal health status, providing valuable insights to healthcare providers. This project utilizes machine learning algorithms to automate the analysis process and provide accurate predictions regarding the fetal health status.
+
 
 # Features
 The fetal health monitoring system offers the following features:
