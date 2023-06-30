@@ -37,7 +37,7 @@ To install and set up the fetal health monitoring system, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/edilauxillea/fetalai.git
+git clone https://github.com/edilauxillea/FetalAI.git
 ```
 
 2. Navigate to the project directory:
