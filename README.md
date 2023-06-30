@@ -1,6 +1,6 @@
 # FetalAI: USING ML TO PREDICT AND MONITOR FETAL HEALTH 
 
-This project focuses on developing a fetal health monitoring system using machine learning algorithms. The system aims to analyze electronic fetal heart rate (FHR) signals and other relevant parameters to assess the health condition of the fetus. This README file provides an overview of the project and instructions on how to use and contribute to it.
+This project focuses on developing a fetal health monitoring system using machine learning algorithms. The system aims to analyze decelerations and other relevant parameters to assess the health condition of the fetus. This README file provides an overview of the project and instructions on how to use and contribute to it.
 
 # Table of Contents
 - [Introduction]()
